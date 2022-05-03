@@ -1,0 +1,116 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 19, 2016 at 04:19 PM
+-- Server version: 5.1.36
+-- PHP Version: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `sonluth`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `full_scores2`
+--
+
+CREATE TABLE IF NOT EXISTS `full_scores2` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `serial_no` varchar(20) NOT NULL,
+  `names` varchar(200) NOT NULL,
+  `form_no` varchar(20) NOT NULL,
+  `first_choice` varchar(40) NOT NULL,
+  `second_choice` varchar(40) NOT NULL,
+  `third_choice` varchar(40) NOT NULL,
+  `paper1` varchar(40) NOT NULL,
+  `paper2` varchar(30) NOT NULL,
+  `total` varchar(30) NOT NULL,
+  `average` varchar(30) NOT NULL,
+  `dob` varchar(50) NOT NULL,
+  `age` varchar(40) NOT NULL,
+  `phone` varchar(40) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=67 ;
+
+--
+-- Dumping data for table `full_scores2`
+--
+
+INSERT INTO `full_scores2` (`id`, `serial_no`, `names`, `form_no`, `first_choice`, `second_choice`, `third_choice`, `paper1`, `paper2`, `total`, `average`, `dob`, `age`, `phone`) VALUES
+(1, '1', 'PAUL FAVOUR', '1151', 'PH', 'WARRI', 'BENIN', '56', '43', '99', '49.5', '9/13/2006', '10 YRS', '8034542880'),
+(2, '2', 'ONYEJI SAMUEL .O', '166', 'PH', 'ABUJA', 'ENUGU', '49', '50', '99', '49.5', '9/13/2006', '10 YRS', '8035251277'),
+(3, '3', 'GANIYU EVANGEL I.', '1420', 'PH', 'OGUN', 'CAL', '80', '19', '99', '49.5', '7/8/2006', '10 YRS 2', '8037045721'),
+(4, '4', 'DAPPA ESTHER OPRITE', '1371', 'PH', 'WARRI', 'IBADAN', '55', '44', '99', '49.5', '3/15/2006', '10 YRS 7M', '9097138600'),
+(5, '5', 'OMOREGBEE CAKTLIN', '1455', 'PH', 'ABEOKUTA', 'BENIIN', '63', '36', '99', '49.5', '6/24/2005', '11 YRS 3M', '8065999252'),
+(6, '6', 'ABIORO HANNA-OLUWAYIOMILEHIN', '1309', 'PH', 'WARRI', 'CAL', '49', '50', '99', '49.5', '9/4/2005', '11YRS', '07032402953,'),
+(7, '7', 'UCHE DENEVEN E', '2092', 'PH', 'ENUGU', 'CAL', '59', '40', '99', '49.5', '8/6/2004', '12YRS 1M', '8063344842'),
+(8, '8', 'JACKREECE TUBO', '521', 'PH', 'WARRI', 'CAL', '62', '37', '99', '49.5', '12/9/2006', '9YRS 9M', '8039436539'),
+(9, '9', 'PALEOWEI PEREMOBOERE', '947', 'PH', 'WARRI', 'CALABAR', '60', '38', '98', '49', '11/15/2005', '10 YRS 11M', '8134018334'),
+(10, '10', 'ATAKO CHIMZI', '1923', 'PH', 'YOLA', 'WARRI', '53', '45', '98', '49', '5/8/2006', '10 YRS 4M', '08149687575, 08064698679'),
+(11, '11', 'EJIOHUO PETER OVUOMA', '1600', 'PH', 'WARRI', 'CALABAR', '65', '33', '98', '49', '4/6/2006', '10YRS 3M', '08033130501; 08033088815'),
+(12, '12', 'ABRAHAM OBA ADEWALE', '1431', 'PH', 'ABJ', 'CAL', '55', '43', '98', '49', '1/4/2006', '10YRS 8M', '80960254428'),
+(13, '13', 'ITA IKOH EDIDIONG', '876', 'PH', 'CAL', 'ENUGU', '63', '35', '98', '49', '4/1/2006', '10YRS;5M', '8038777454'),
+(14, '14', 'EPHRAIM SAM ELVIS. A', '877', 'PH', 'ENUGU', 'CAL', '62', '36', '98', '49', '12/17/2004', '11YRS 9M', '8035448348'),
+(15, '15', 'KELVIN NNOKAM', '1066', 'PH', 'CAL', 'WARRI', '69', '29', '98', '49', '12/6/2006', '9YRS 9M', '8052312547'),
+(16, '16', 'ALAMU VICTOR .A', '584', 'PH', 'ABUJA', 'IBADAN', '54', '43', '97', '48.5', '5/5/2006', '10YRS 4M', '8035055421'),
+(17, '17', 'OBI EMMANUEL U.', '2019', 'PH', 'CAL', 'WARRI', '55', '42', '97', '48.5', '3/12/2005', '10YRS 9M', '08033128125. 08063272990'),
+(18, '18', 'CHIDOZIE MELODY E.', '347', 'PH', 'ENUGU', 'NTEJE', '47', '50', '97', '48.5', '6/22/2005', '11 YRS 3M', '8035492636'),
+(19, '19', 'YAKMFIOK ESSIEN MERCY E.', '1035', 'PH', 'CAL', 'IBADAN', '57', '40', '97', '48.5', '20/05/2005', '11YRS 4M', '08038996749. 07035103035'),
+(20, '20', 'ORUBIMA TAMUNOITEKENA B.', '1297', 'PH', 'WARRI', 'CAL', '62', '34', '96', '48', '12/3/2006', '10YRS 6M', '08023448817. 08023423552'),
+(21, '21', 'BRIGGS OROLOBO ADOKIYE K.', '2027', 'PH', 'LAGOS', '-', '55', '41', '96', '48', '28/06/2005', '11YRS 3M', '08033125069. 08033095069'),
+(22, '22', 'OSAZUWA OSARIEMEN IRENE', '66', 'PH', 'BENIN', 'CAL', '46', '49', '95', '47.5', '8/16/2006', '10 YRS 1M', '8029427222'),
+(23, '23', 'WOKOMA SOTONYE A.', '2006', 'PH', 'CALABAR', 'WARRI', '55', '40', '95', '47.5', '1/8/2006', '11 YRS 8M', '7056659039'),
+(24, '24', 'ORLU MARY', '1964', 'BENIN', 'PH', 'PH', '54', '41', '95', '47.5', '10/9/2005', '11YRS', '9059800522'),
+(25, '25', 'CHIKA EXCEL CHIJIOKE', '902', 'PH', 'BENIN', 'PHC', '62', '33', '95', '47.5', '11/15/2006', '9 YRS 10M', '8034311188'),
+(26, '26', 'EGORR UFUOM JNR', '1823', 'WARRI', 'CAL', 'PH', '51', '43', '94', '47', '9/4/2006', '10YRS', '8174905532'),
+(27, '27', 'IWUCHUKWU VICTOR C.', '812', 'ENUGU', 'PH', 'ANAMBRA', '50.5', '43', '93.5', '46.75', '1/26/2006', '10 YRS 8M', '8036778415'),
+(28, '28', 'ORIANWO FAVOUR D.', '1641', 'PH', 'WARRI', 'ABUJA', '54.5', '39', '93.5', '46.75', '12/16/2006', '9 YRS 9M', '7069510550'),
+(29, '29', 'EMMANUEL BOMA', '1250', 'PH', 'CAL', 'WARRI', '51', '42', '93', '46.5', '6/9/2006', '10YRS;3M', '8064187741'),
+(30, '30', 'ONYEJIEKE GLORY MITCHELL.C.', '377', 'PH', 'ENUGU', 'ANAMBRA', '67', '25', '92', '46', '8/18/2006', '10 YRS 1M', '8033396009'),
+(31, '31', 'BENJAMIN SAMSON FIYEBO', '279', 'PH', 'CAL', 'WARRI', '48', '44', '92', '46', '2/3/2006', '10 YRS 7M', '8038711238'),
+(32, '32', 'ANYALEWECHI DIVINEGIFT', '497', 'PH', 'WARRI', 'NTEJE', '64', '28', '92', '46', '4/14/2005', '11 YRS 5M', '8033475689'),
+(33, '33', 'AKARADA MARGRET AWALASON', '568', 'PH', 'CALABAR', 'BENIN', '58', '34', '92', '46', '4/15/2005', '11 YRS 5M', '08053432611, 0703168425'),
+(34, '34', 'UGBAJA PASCHAL', '1482', 'PH', 'ENUGU', 'CAL', '51', '41', '92', '46', '10/21/2004', '11YRS 11M', '8096471165'),
+(35, '35', 'NNWOKA IHEANYICHUKWU E.', '1648', 'PH', 'CALABAR', 'ENUGU', '59', '33', '92', '46', '12/3/2006', '9 YRS 9M', '7037045434'),
+(36, '36', 'AMADI PRINCE MANUCHIM', '1110', 'PH', 'ABUJA', 'OGUN', '43', '48', '91', '45.5', '5/31/2004', '12YRS 4M', '8037925016'),
+(37, '37', 'AHIAMADU UCHECHUKWU', '1871', 'PH', 'WARRI', 'CALABAR', '56.5', '34', '90.5', '45.25', '30/09/05', '11YRS', '08033106041; 08037096881'),
+(38, '38', 'NWUZI CHIMYEREM', '1706', 'PH', 'CAL', 'PHC', '52', '37', '89', '44.5', '2/27/2006', '10YRS;7M', '8033124519'),
+(39, '39', 'AKINTERINWA BOLUWARIN H.', '2008', 'PH', 'LAGOS', 'OYO', '54', '35', '89', '44.5', '25/06/2005', '11 YRS 3M', '0803261068, 08067974315'),
+(40, '40', 'AMALAGHA DAVID A', '419', 'PH', 'WARRI', 'CALABAR', '46', '40.5', '86.5', '43.25', '9/20/2006', '10 YRS', '08030978112, 09026966316'),
+(41, '41', 'INNOCENT MIRACLE', '440', 'WARRI', 'PHC', 'ABEOKUTA', '50', '35.5', '85.5', '42.75', '9/2/2006', '10 YRS', '8063303510'),
+(42, '42', 'OSUOSA PIETY E. INIWURAONISO', '1828', 'PH', 'WARRI', 'BENIN', '59', '26', '85', '42.5', '2/2/2006', '10YRS 7M', '08035532560; 08056610498'),
+(43, '43', 'CHIKA WENENDA MANUCHIMSO', '1916', 'PH', 'ABUJA', 'WARRI', '51', '31', '82', '41', '24/11/2005', '10 YRS 10M', '08033541504, 08034544584'),
+(44, '44', 'CHIWUBA CHINECHEEREM', '735', 'PH', 'PHC', 'CAL', '56', '26', '82', '41', '10/21/2005', '11YRS 11M', '08065984397,'),
+(45, '45', 'EGEONU KINDNESS CHINAG', '44', 'PH', 'ENUGU', 'ANAMBRA', '49', '32', '81', '40.5', '10/25/2006', '9YRS 11M', '8066650396'),
+(46, '46', 'OKOH OGHENERUKEVWE E.', '1136', 'PH', 'WARRI', 'BENIN', '43', '36.5', '79.5', '39.75', '2/15/2006', '10 YRS 7M', '8029577218'),
+(47, '47', 'MOSES RUTH CHINEDUM', '1014', 'BENIN', 'CAL', 'PHC', '42', '37.5', '79.5', '39.75', '12/26/2006', '9YRS 9M', '8035055445'),
+(48, '48', 'MINAKIRI D. PRECIOUS', '906', 'PH', 'CALABAR', 'WARRI', '54', '25', '79', '39.5', '6/13/2005', '11 YRS;3M', '8064288485'),
+(49, '49', 'DODO GOD DAUGHTER', '305', 'PH', 'WARRI', 'CAL', '47', '31.5', '78.5', '39.25', '12/2/2006', '9YRS 9M', '8055453194'),
+(50, '50', 'CHIKEZIE MARVIN CHIGOZIE', '2087', 'PH', 'WARRI', 'ANAMBRA', '49', '28', '77', '38.5', '8/4/2005', '10 YRS 1M', '8037245379'),
+(51, '51', 'NWABUEZE DANIEL', '761', 'PH', 'ENUGU', 'ONITSHA', '36', '41', '77', '38.5', '2/4/2006', '10YRS;7M', '8036715899'),
+(52, '52', 'ELIJAH CHIKADIBIA', '', 'PH', 'BAY', 'IMO', '38', '38', '76', '38', '6/8/2006', '10YRS;3M', '8036772025'),
+(53, '53', 'MPI ALERUCHI CATHERINE', '1579', 'PH', 'ANAMBRA', 'WARRI', '49', '26.5', '75.5', '37.75', '19/3/06', '10YRS 6M', '8106323494'),
+(54, '54', 'MADUAGWUNA IFUNAYA', '1848', 'PH', 'ANAMBRA', 'ABUJA', '31', '39', '70', '35', '6/10/2005', '11 YRS 3M', '7038321784'),
+(55, '55', 'EGEONU JOSHUA CHIDIEBERE', '43', 'PH', 'ENUGU', 'ANAMBRA', '42', '28', '70', '35', '12/25/2005', '11YRS 11M', '8066650396'),
+(56, '56', 'WORLU CHINEME', '2005', 'CAL', 'PH', 'WARRI', '39', '30', '69', '34.5', '11/22/2005', '10 YRS 10M', '8030870038'),
+(57, '57', 'ATUBOYEDIA TAMUNODIEPIRIYE J.', '222', 'PH', 'WARRI', 'CAL', '46', '22', '68', '34', '8/26/2005', '11 YRS 1M', '8033130220'),
+(58, '58', 'IKUNGA JOSHUA CHITURU', '1880', 'PH', 'CAL', 'ENUGU', '37', '30', '67', '33.5', '7/21/2002', '14YRS 2M', '8064018137'),
+(59, '59', 'EGEONU GOODNESS CHIMAOBUM', '46', 'PH', 'ENUGU', 'ONITSHA', '32', '32', '64', '32', '10/25/2006', '9YRS 11M', '8066650396'),
+(60, '60', 'WOKOMA REVIVAL', '2004', 'PH', 'CAL', 'WARRI', '40', '22', '62', '31', '11/1/2004', '11YRS 9M', '8068428334'),
+(61, '61', 'INIMGBA UCHEAWAJI', '651', 'CAL', 'PH', 'BENIN', '30', '30', '60', '30', '4/30/2005', '11 YRS 5M', '8033170756'),
+(62, '62', 'ADENIYI BUKOLA PRECIOUS', '1206', 'PH', 'WARRI', 'ENUGU', '34', '23', '57', '28.5', '23/3/06', '10YRS 6M', '8150605578'),
+(63, '63', 'SALAMI ENIOLA', '2017', 'PH', 'LAGOS', 'IBADAN', '33', '24', '57', '28.5', '10/10/2006', '9YRS 11M', '8033410021'),
+(64, '64', 'OGBONNAYA EUNICE EZINNE', '1647', 'PH', 'WARRI', 'ADO', '26', '22', '48', '24', '7/8/2006', '10 YRS 2M', '08174484504, 08186133783'),
+(65, '65', 'ATUBOYEDIA TAMUNODEINMA .J.', '221', 'PH', 'WARRI', 'CAL', '23', '25', '48', '24', '8/26/2005', '11 YRS 1M', '8033107557'),
+(66, '66', 'OKORO ONYINYECHI STEPHANIE', '2063', 'PH', 'WARRI', 'CAL', '27', '21', '48', '24', '10/7/2005', '11 YRS 1M', '8037603637');

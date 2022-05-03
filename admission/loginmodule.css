@@ -1,0 +1,71 @@
+body {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0px;
+	padding: 20px 10px 0px;
+}
+
+
+.textfield {
+	font-size: 11px;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding-left: 1px;
+}
+
+
+h1 {
+	color: #99CC00;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dotted #FF0000;
+}
+
+
+a {
+	color: #2D3954;
+	font-size: 11px;
+}
+
+
+a:hover {
+	color: #99CC00;
+	text-decoration: none;
+}
+
+
+.err {
+	color: #FF9900;
+}
+
+
+th {
+	font-weight: bold;
+	text-align: left;
+}
+
+blockquote {
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+
+
+.style2 {
+	font-size: 8pt;
+	font-weight: bold;
+	color: #990000;
+}
+.style1 {
+	font-size: 8pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+<!- - - - - Suggestion - - - - -!>
+You can use=> border-bottom: 1px "dashed" #FF0000; instead of=> border-bottom: 1px "dotted" #FF0000;
+
