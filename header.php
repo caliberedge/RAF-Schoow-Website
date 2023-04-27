@@ -55,7 +55,6 @@ $result = mysqli_query($connection,"SELECT * FROM home WHERE id = 1");
 					<li><a href="fees2.php">School Fee</a></li>
                     <li><a href="admission_form.php">Admission Form</a></li>
                     <li><a href="portal_app.php">Admission Portal Login</a></li>
-                   <li><a href="portal_login.php">Recover Form</a></li>
                   </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">OUR WORLD</a><i class="fas fa-caret-down"></i>

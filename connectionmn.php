@@ -3,8 +3,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$db_name = "dlhs";
+$password = "omamode94";
+$db_name = "raf";
 
 // Create connection
 $connection = new mysqli($servername, $username, $password, $db_name);
